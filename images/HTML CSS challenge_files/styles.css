@@ -1,0 +1,87 @@
+html{
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: grey;
+}
+
+.main{
+    max-width: 1440px;
+}
+.container{
+    /* min-height: 100vh; */
+    width: 70%;
+    margin:  0 auto;
+    background-color: aqua;
+}
+/* .mobile{
+    
+} */
+.outerlayer{
+    width: 300px;
+    height: 590px;
+    padding: 15px;
+    background: white;
+    border-radius: 30px;
+}
+.innerlayer{
+    background: hsl(270, 20%, 96%);
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+}
+header{
+    padding: 30px 10px 10px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    background-image: linear-gradient(to right, hsl(264, 100%, 61%) , hsl(293, 100%, 63%));
+}
+.top{
+    background: white;
+    height: 20px;
+    width: 130px;
+    position: absolute;
+    left: 70px;
+    border-radius: 0 0 15px 15px;
+    z-index: 1;
+    color: transparent;
+}
+.avatar img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.name h3{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+.name p{
+    font-size: 10px;
+    color: hsl(276, 100%, 81%);
+}
+.menu{
+    margin-left: auto;
+}
+.menu img{
+    height: 12px;
+}
+.msg-scrn{
+    font-size: 10px;
+    padding: 5px;
+}
+p.received{
+    color: hsl(276, 55%, 52%);
+}
